@@ -3,10 +3,10 @@
     <id>com.custom.customstyle</id>
     <name>CustomStyle</name>
     <version>1.0</version>
-    <publisher>webwerks</publisher>
+    <publisher>sid</publisher>
     <url>http://</url>
     <description>not specified</description>
-    <copyright>2013 by webwerks</copyright>
+    <copyright>2013 by sid</copyright>
     <icon>appicon.png</icon>
     <persistent-wifi>false</persistent-wifi>
     <prerendered-icon>false</prerendered-icon>
@@ -28,23 +28,24 @@
             <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
         </orientations>
     </iphone>
-	<android xmlns:android="http://schemas.android.com/apk/res/android" >
-		<tool-api-level>16</tool-api-level>
-		<manifest>
-			<uses-sdk android:minSdkVersion="11" android:targetSdkVersion="17"/>
-			<application android:theme="@style/ThemeMine">
-				
-				<activity android:configChanges="keyboardHidden|orientation" android:label="CustomStyle" android:name=".CustomstyleActivity" android:theme="@style/ThemeMine">
-					<intent-filter>
-						<action android:name="android.intent.action.MAIN"/>
-						<category android:name="android.intent.category.LAUNCHER"/>
-					</intent-filter>
-				</activity>
-		
-			</application>	
-		</manifest>
-	</android>
-	<mobileweb>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+        <tool-api-level>16</tool-api-level>
+        <manifest>
+            <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="17"/>
+            <application android:theme="@style/ThemeMine">
+                <activity
+                    android:configChanges="keyboardHidden|orientation"
+                    android:label="CustomStyle"
+                    android:name=".CustomstyleActivity" android:theme="@style/ThemeMine">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN"/>
+                        <category android:name="android.intent.category.LAUNCHER"/>
+                    </intent-filter>
+                </activity>
+            </application>
+        </manifest>
+    </android>
+    <mobileweb>
         <precache/>
         <splash>
             <enabled>true</enabled>
