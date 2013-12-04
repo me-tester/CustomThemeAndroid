@@ -1,0 +1,1 @@
+module.exports = [{"isApi":true,"priority":1000.0003,"key":"Button","style":{height:"40dp",width:"70dp",top:"10dp",color:"red",}},{"isApi":true,"priority":1000.0004,"key":"TextField","style":{width:Ti.UI.FILL,left:"25dp",right:"25dp",}},{"isClass":true,"priority":10000.0002,"key":"container","style":{backgroundColor:"white",layout:"vertical",}}];

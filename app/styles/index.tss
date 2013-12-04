@@ -1,0 +1,18 @@
+".container": 
+{
+	backgroundColor:"white",
+	layout : "vertical"
+},
+"Button":
+{
+	height : "40dp",
+	width : "70dp",
+	top : "10dp",
+	color : "red"
+},
+"TextField":
+{
+	width : Ti.UI.FILL,
+	left : "25dp",
+	right : "25dp"
+}

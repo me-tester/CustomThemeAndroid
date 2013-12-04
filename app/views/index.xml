@@ -1,0 +1,9 @@
+<Alloy>
+	<Window class="container">
+
+		<TextField>Hello</TextField>		
+		<Button>Text 1</Button>		
+		<Button>Text 2</Button>		
+
+	</Window>
+</Alloy>

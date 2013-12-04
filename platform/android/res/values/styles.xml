@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+   	<style name="ThemeMine" parent="android:Theme.Holo.Light">
+
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:buttonStyle">@style/MyButtonStyle</item>
+        
+	</style>
+	
+	 <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">     
+        <item name="android:background">#99B2FF</item>
+    </style>
+
+	 <style name="MyButtonStyle">     
+        <item name="android:background">@drawable/red_button</item>
+    </style>
+    
+</resources>
